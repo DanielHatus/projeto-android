@@ -3,50 +3,131 @@
     src: url("fontes/idroid.otf") format("opentype");
 }
 @media(max-width: 859px) {
-    section {
+    body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        max-width:100%;
+    }
+    main{
+        width:100%;
+        max-width:100%;
+    }
+    section{
+    width:100%;
+    max-width:100%;
+    }
+    footer{
         width:100%;
         max-width:100%;
     }
     #video{
-        width:100%;
-    }
+        width:100%;}
     #vd-android{
         width:98%;
         max-width:98%;
         margin:10px;
-        height:300px;
-    }
-
+        height:300px;}
 }    
 @media(max-width:656px){
     #h2-back-0,#h2-back-1,#h2-back-2{
         width:400px;
-        max-width:400px;
-    }
+        max-width:400px;}
+        body{
+            padding:0px;
+            margin:0px;
+            width:100%;
+            max-width:100%;
+        }
+        main{
+            width:100%;
+            max-width:100%;
+        }
+        section{
+        width:100%;
+        max-width:100%;
+        }
+        footer{
+            width:100%;
+            max-width:100%;
+        }
 }
 @media(max-width:377px){
     #h2-back-1{
         width:100% !important;
         max-width:100% !important;
         font-size:1.7em !important;
-        overflow-x:hidden;
-    }
+        overflow-x:hidden;}
     .titulo-background{
         width:100% !important;
         max-width:100% !important;
-        margin-top:22px;
+        margin-top:22px;}
+        body{
+            padding:0px;
+            margin:0px;
+            width:100%;
+            max-width:100%;
+        }
+        main{
+            width:100%;
+            max-width:100%;
+        }
+        section{
+        width:100%;
+        max-width:100%;
+        }
+        footer{
+            width:100%;
+            max-width:100%;
+        }
 }
 @media(max-width:321px){
     #h2-back-1{
         font-size:1.55em !important;
     }
+    body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        max-width:100%;
+    }
+    main{
+        width:100%;
+        max-width:100%;
+    }
+    section{
+    width:100%;
+    max-width:100%;
+    }
+    footer{
+        width:100%;
+        max-width:100%;
+    }
 }    
-}
+
 @media(max-width:385px){
     #h2-back-1{
-        font-size:1.75em !important;
-    
+        font-size:1.75em !important;   
 }
+
+body{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    max-width:100%;
+}
+main{
+    width:100%;
+    max-width:100%;
+}
+section{
+width:100%;
+max-width:100%;
+}
+footer{
+    width:100%;
+    max-width:100%;
+} 
 }
 @media (max-width:424px){
  
