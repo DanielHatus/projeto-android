@@ -24,7 +24,93 @@
         max-width:400px;
     }
 }
+@media(max-width:377px){
+    #h2-back-1{
+        width:100% !important;
+        max-width:100% !important;
+        font-size:1.7em !important;
+        overflow-x:hidden;
+    }
+    .titulo-background{
+        width:100% !important;
+        max-width:100% !important;
+        margin-top:22px;
+}
+@media(max-width:321px){
+    #h2-back-1{
+        font-size:1.55em !important;
+    }
+}    
+}
+@media(max-width:385px){
+    #h2-back-1{
+        font-size:1.75em !important;
+    
+}
+}
+@media (max-width:424px){
+ 
+#h2-back-0{
+    width:100%;
+    max-width:100%;
+    font-size:2em;
+    overflow-x:hidden;
+    text-align:center;
+}
+#h2-back-1{
+    width:100%;
+    max-width:100%;
+    font-size:2em;
+    overflow-x:hidden;
+    text-align:center;
+}
+#h2-back-2{
+    width:100%;
+    max-width:100%;
+    font-size:1.9em;
+    overflow-x:hidden;
+    text-align:center;   
+}
+header{
+    width:100%;
+    max-width:100%;
+}
+header>nav>span>strong>a:hover{
+    padding:3px !important;
+    
+    
+}
+header>h1{
+    font-size:2.4em !important;
+    font-weight:400;
+}
+header>p{
+    line-height:20px;
+    display:inline;
+}
+.titulo-background{
+   width:100%;
+   max-width:100%;
+   margin-top:22px;
+}
+footer{
+    margin-top:-20px;
+}
+main{
+    margin:0px;
+    width: 100%;
+    max-width:100%;
 
+}
+section{
+    margin:0px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    width:100%;
+    max-width:100%;
+}
+
+}
    
     
 
@@ -42,9 +128,8 @@ header>h1{
     font-size:3em;
     color:white;
     text-align:center;
-    width:100%;
-    max-width:100%;
     text-shadow:3px 3px 3px black;
+    overflow-x:hidden;
     
 }
 header>p{
@@ -87,6 +172,8 @@ body{
     margin-left:15px;
     color:rgb(10, 63, 10);
     background-image:linear-gradient(to left,#84e1ac9d,#84e1acce);
+    width:100%;
+    max-width:100%;
     
 }
 #h2-back-0{
@@ -128,6 +215,7 @@ section>article>p{
     display:flex;
     align-items:center;
     flex-direction:column;
+    overflow-x:hidden;
 }
 #video{
     display:flex;
