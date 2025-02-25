@@ -201,7 +201,8 @@ header{
     width:100%;
     margin-top:-31px;
     margin-bottom:0px;
-    padding:5px;
+    padding:4px;
+    overflow-x:hidden;
 }
 header>h1{
     font-family:"Atkinson Hyperlegible Mono","Arial";
